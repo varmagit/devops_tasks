@@ -23,6 +23,7 @@ public class Main {
         // 3. Calculate age and use conditional logic
         int currentYear = 2026;
         int age = currentYear - birthYear;
+        // 3. Calculate age and use conditional logic
         
         System.out.println("\nHello, " + userName + "!");
         System.out.println("You are approximately " + age + " years old.");
