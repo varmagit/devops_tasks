@@ -44,6 +44,8 @@ public class Main {
     }
 
     // A simple helper method that uses a loop
+    // A simple helper method that uses a loop
+    // A simple helper method that uses a loop
     public static void countToThree() {
         for (int i = 1; i <= 3; i++) {
             System.out.println("Number: " + i);
