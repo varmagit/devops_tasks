@@ -1,5 +1,8 @@
 name: Java CI
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
     branches:
@@ -19,7 +22,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: 'maven'
 
       - name: Compile Java source
         run: javac sample.java
