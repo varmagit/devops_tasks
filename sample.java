@@ -1,6 +1,6 @@
 import java.util.Scanner; // Imports the Scanner class to read user input
 
-public class Main {
+class Main {
 
     // The main method is the starting point of any Java application
     public static void main(String[] args) {
