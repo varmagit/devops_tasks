@@ -1,6 +1,6 @@
 import java.util.Scanner; // Imports the Scanner class to read user input
 
-public class Main {
+class Main {
 
     // The main method is the starting point of any Java application
     public static void main(String[] args) {
@@ -22,8 +22,12 @@ public class Main {
         
         // 3. Calculate age and use conditional logic
         int currentYear = 2026;
+<<<<<<< HEAD
         int age = currentYear - birthYear;
         // 3. Calculate age and use conditional logic
+=======
+        int age = currentYear - birthYear
+>>>>>>> c6dcc92864df42565053120aa44e4185facf2de0
         
         System.out.println("\nHello, " + userName + "!");
         System.out.println("You are approximately " + age + " years old.");
@@ -39,6 +43,7 @@ public class Main {
         System.out.println("\nLet's count to 3:");
         countToThree();
         
+        // Close the scanner to prevent resource leaks
         // Close the scanner to prevent resource leaks
         inputScanner.close();
     }
