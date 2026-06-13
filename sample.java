@@ -19,15 +19,15 @@ class Main {
         System.out.print("Enter your birth year: ");
         // Read integer input from the user
         int birthYear = inputScanner.nextInt();
-        
+        // Close the scanner to prevent resource leaks
+        // Close the scanner to prevent resource leaks
         // 3. Calculate age and use conditional logic
         int currentYear = 2026;
-<<<<<<< HEAD
         int age = currentYear - birthYear;
         // 3. Calculate age and use conditional logic
-=======
-        int age = currentYear - birthYear
->>>>>>> c6dcc92864df42565053120aa44e4185facf2de0
+        // Close the scanner to prevent resource leaks
+        // Close the scanner to prevent resource leaks
+
         
         System.out.println("\nHello, " + userName + "!");
         System.out.println("You are approximately " + age + " years old.");
@@ -48,8 +48,6 @@ class Main {
         inputScanner.close();
     }
 
-    // A simple helper method that uses a loop
-    // A simple helper method that uses a loop
     // A simple helper method that uses a loop
     public static void countToThree() {
         for (int i = 1; i <= 3; i++) {
