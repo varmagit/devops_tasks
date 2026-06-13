@@ -40,6 +40,7 @@ class Main {
         countToThree();
         
         // Close the scanner to prevent resource leaks
+        // Close the scanner to prevent resource leaks
         inputScanner.close();
     }
 
