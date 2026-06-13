@@ -24,9 +24,6 @@ public class Main {
         // 3. Calculate age and use conditional logic
         int currentYear = 2026;
         int age = currentYear - birthYear;
-        // 3. Calculate age and use conditional logic
-        // Close the scanner to prevent resource leaks
-        // Close the scanner to prevent resource leaks
 
         
         System.out.println("\nHello, " + userName + "!");
